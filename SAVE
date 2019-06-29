@@ -1,0 +1,16 @@
+            Esse é o que fiz. Deu certo. Adicionando Descrição string
+            
+            if (obj_Pet.COD_CLIENTE != -1)
+            {
+                tbox_cod_Cliente.Text = Convert.ToString(obj_Pet.COD_CLIENTE);
+                obj_Cliente.COD_CLIENTE = obj_Pet.COD_CLIENTE;
+                lb_desc_Cliente.Text = obj_BDCliente.FindByCliente(obj_Cliente).NM_CLIENTE;
+            }
+            
+                        if (obj_Pet.COD_CLIENTE != -1)
+            {
+                tbox_cod_Cliente.Text = Convert.ToString(obj_Pet.COD_CLIENTE);
+                obj_Cliente.COD_CLIENTE = obj_Pet.COD_CLIENTE;
+                lb_desc_Cliente.Text = obj_BDCliente.FindByCliente(obj_Cliente).NM_CLIENTE;
+                picBox_Foto ?????
+            }
